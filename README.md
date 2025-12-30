@@ -11,8 +11,11 @@ This project implements a robust Scene Change Detection system using OpenAI's CL
 Key Features
 
 Backbone: Frozen CLIP (ViT-B/32) for zero-shot capable feature extraction.
+
 Classifier: Lightweight MLP (Multi-Layer Perceptron) with Dropout for binary classification.
+
 Strong Augmentation: An aggressive pipeline including:Random Rotation ($\pm 5^\circ$) & Resized Crop.Color Jitter (Brightness, Contrast, Saturation).Gaussian Blur & Random Grayscale.
+
 Robustness: High recall (0.95) on identifying the "Same Scene" despite heavy augmentations.
 
 Dataset
