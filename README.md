@@ -27,5 +27,7 @@ Content: Unpaired images of Yosemite National Park in summer and winter.
 Structure:
 
 Positive Pairs (Same Scene): Generated via strong augmentation of a single image.
+
 Negative Pairs (Different Scene): Randomly paired Summer and Winter images.
+
 Split: 900 Pairs (70% Train, 15% Val, 15% Test).
